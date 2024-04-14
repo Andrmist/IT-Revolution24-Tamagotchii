@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Andrmist/IT-Revolution24-Backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/okashnik48/IT-Revolution24-Frontend

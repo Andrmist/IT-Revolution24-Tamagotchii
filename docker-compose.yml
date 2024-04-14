@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - 9101:8080
+    volumes:
+      - ./backend/.env:/app/.env
+  frontend:
+    build: ./frontend
+    ports:
+      - 9102:3000
